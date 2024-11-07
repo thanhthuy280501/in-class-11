@@ -33,6 +33,18 @@ int main() {
   cout << i << endl;
 
   cout << "-----------------" << endl;
+  cout << "(" << p2.getFirst() << "," << p2.getSecond() << "," << p2.getThird() << ")" << endl;
+
+  i = addUp(p2);
+  cout << i << endl;
+
+  cout << "-----------------" << endl;
+  cout << "(" << p3.getFirst() << "," << p3.getSecond() << "," << p3.getThird() << ")" << endl;
+
+  i = addUp(p3);
+  cout << i << endl;
+
+  cout << "-----------------" << endl;
 
   return 0;
 }
